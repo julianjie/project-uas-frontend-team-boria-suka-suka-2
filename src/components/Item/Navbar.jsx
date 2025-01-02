@@ -65,7 +65,7 @@ const Navbar = React.forwardRef(({ bgColor }, ref) => {
                     className={`nav-link ${window.location.pathname === "/Admin/dashboard" ? "active" : ""}`}
                     to="/Admin/dashboard"
                   >
-                    Dashboard
+                    Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
